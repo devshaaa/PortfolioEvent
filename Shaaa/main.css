@@ -9,10 +9,12 @@ body{
     position: absolute;
     left: 400px;
     text-align: center;
+    padding-top: 20px;
     box-shadow: 0 0 10px 3px rgba(148, 211, 240, 0.842);
     border: 2px white;
     border-style: solid;
 }
 h1{
-    
+    color: black;
+    font-family: monospace;
 }
