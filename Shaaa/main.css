@@ -8,13 +8,90 @@ body{
     background-color: rgba(148, 211, 240, 0.466);
     position: absolute;
     left: 400px;
+    top: 200px;
     text-align: center;
     padding-top: 20px;
     box-shadow: 0 0 10px 3px rgba(148, 211, 240, 0.842);
     border: 2px white;
     border-style: solid;
 }
+.service{
+position: absolute;
+width: 300px;
+height: 100px;
+left: 1050px;
+top: 350px;
+font-size: 20px;
+font-family: monospace;
+
+}
 h1{
     color: black;
     font-family: monospace;
+}
+.profilecontainer{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-image: url(https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-6/339810544_931207944699188_8190003963231918941_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeGJXpRiAapTO9lReTETywgG9SMZjt5Xt8_1IxmO3le3z74snR6LC-tz-eIYDCHudMb4NXvM-G4AZo0oud1PaIPx&_nc_ohc=0UMVrfZYtYkAX82bYEW&_nc_ht=scontent.fdvo2-1.fna&oh=00_AfBPFN1AC41CF5jZsLZxbpjdFXxlTB8z7MCcl4UwzS8Pjw&oe=657D3C0F);
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 5px rgba(148, 211, 240, 0.842);
+    border: 2px white;
+    border-style:solid ;
+    left: 950px;
+}
+
+/*  for button */
+.buttonContainer{
+    position: absolute;
+    top: 400px;
+    width:40%;
+    align-content: center;
+    left: 450px;
+
+}
+
+
+.button-27 {
+  appearance: none;
+  background-color: rgba(148, 211, 240, 0.842);
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
 }
