@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://wallpaperbat.com/img/142016-henry-light-blue.jpg);
+    background-size:auto;
+}
+.h1container{
+    width: 600px;
+    height: 100px;
+    background-color: rgba(148, 211, 240, 0.466);
+    position: absolute;
+    left: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px 3px rgba(148, 211, 240, 0.842);
+    border: 2px white;
+    border-style: solid;
+}
+h1{
+    
+}
