@@ -15,6 +15,16 @@ body{
     border: 2px white;
     border-style: solid;
 }
+.about{
+    width: 300px;
+    height: 260px;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    background-color: rgba(161, 236, 241, 0.13);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 .service{
 position: absolute;
 width: 300px;
